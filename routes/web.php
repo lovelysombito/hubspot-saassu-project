@@ -22,15 +22,6 @@ use Spatie\Health\Http\Controllers\HealthCheckResultsController;
 */
 
 Route::get('/', function (Request $request) {
-
-    $a = 10;
-    $b = 20;
-
-    $arr = [$a, $b];
-    return list($b, $a) = $arr;
-
-
-
     return "Welcome to Saasu <> HubSpot Integration";
 });
 
